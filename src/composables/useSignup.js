@@ -1,5 +1,5 @@
-import { projectAuth } from '../firebase/config'
 import { ref } from 'vue'
+import { projectAuth } from '../firebase/config'
 
 const error = ref(null)
 
@@ -14,14 +14,10 @@ const signup = async (email, password, displayName) => {
         }
         await res.user.updateProfile({displayName})
         console.log(res.user)
-        err.value = null
+        error.value = null
         
         return res
-
-
-
     } catch (err) {
-        console.log(err.message)
         error.value = err.message
     }
 }
