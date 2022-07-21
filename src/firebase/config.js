@@ -4,13 +4,13 @@ import 'firebase/auth'
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCIJIp3GOlZrezVxaRe1Dq10zFjqRz_jGU",
-  authDomain: "udemi-chat.firebaseapp.com",
-  projectId: "udemi-chat",
-  storageBucket: "udemi-chat.appspot.com",
-  messagingSenderId: "24431176421",
-  appId: "1:24431176421:web:326a7069b519b42aa1420c",
-  measurementId: "G-LJ5JZYCD8T"
+  apiKey: "AIzaSyDaujInKqsW9s3Oo41YjKQi-4aZ-w3-81k",
+  authDomain: "udemi-chat-1c730.firebaseapp.com",
+  projectId: "udemi-chat-1c730",
+  storageBucket: "udemi-chat-1c730.appspot.com",
+  messagingSenderId: "809233051227",
+  appId: "1:809233051227:web:1d6adb9fca5c75caa4597e",
+  measurementId: "G-N8MCXQ89XF"
 };
 
 
